@@ -21,7 +21,7 @@ class DigitalClock(QWidget):
         self.label.setAlignment(Qt.AlignCenter)
         self.label.setStyleSheet("color: #24ff00")
         
-        font_id = QFontDatabase.addApplicationFont("D:/Python/Digital clock/DS-DIGIB.TTF")
+        font_id = QFontDatabase.addApplicationFont("DS-DIGIB.TTF")
         font_family = QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font = QFont(font_family, 150)
         self.label.setFont(my_font)
